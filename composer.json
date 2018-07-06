@@ -1,0 +1,17 @@
+{
+  "name": "lajosbencz/here-php",
+  "description": "PHP SDK for here.com API",
+  "minimum-stability": "dev",
+  "license": "GPLv3",
+  "authors": [
+    {
+      "name": "Lajos Bencz",
+      "email": "lajos.bencz@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Here\\": "src/Here/"
+    }
+  }
+}

@@ -1,4 +1,14 @@
-/.idea/
+.idea/
+
+composer.phar
+composer.lock
 /vendor/
-/composer.lock
-**/config.php
+
+.openapi-generator/
+git_push.sh
+
+# php-cs-fixer cache
+.php_cs.cache
+
+# PHPUnit cache
+.phpunit.result.cache

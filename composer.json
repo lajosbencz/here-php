@@ -1,17 +1,38 @@
 {
-  "name": "lajosbencz/here-php",
-  "description": "PHP SDK for here.com API",
-  "minimum-stability": "dev",
-  "license": "GPL-3.0",
-  "authors": [
-    {
-      "name": "Lajos Bencz",
-      "email": "lajos.bencz@gmail.com"
+    "name": "lajosbencz/here-php",
+    "description": "This document describes the Geocoding and Search API.",
+    "keywords": [
+        "openapitools",
+        "openapi-generator",
+        "openapi",
+        "php",
+        "sdk",
+        "rest",
+        "api"
+    ],
+    "homepage": "https://github.com/lajosbencz/here-php.git",
+    "license": "unlicense",
+    "authors": [
+        {
+            "name": "Lajos Bencz",
+            "homepage": "https://github.com/lajosbencz"
+        }
+    ],
+    "require": {
+        "php": ">=7.2",
+        "ext-curl": "*",
+        "ext-json": "*",
+        "ext-mbstring": "*",
+        "guzzlehttp/guzzle": "^6.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.0 || ^9.0",
+        "friendsofphp/php-cs-fixer": "^2.12"
+    },
+    "autoload": {
+        "psr-4": { "Here\\" : "lib/" }
+    },
+    "autoload-dev": {
+        "psr-4": { "Here\\Test\\" : "test/" }
     }
-  ],
-  "autoload": {
-    "psr-4": {
-      "Here\\": "src/Here/"
-    }
-  }
 }

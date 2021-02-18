@@ -1,5 +1,7 @@
 .idea/
 
+/run/
+
 composer.phar
 composer.lock
 /vendor/
